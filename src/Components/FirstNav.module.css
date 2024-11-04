@@ -1,0 +1,60 @@
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005E90;
+    padding: 2px 0px 2px 0px;
+    font-family: sans-serif;
+}
+
+.leftSection {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-left: 300px;
+}
+
+.rightSection {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin-right: 300px;
+}
+
+.item {
+    color: white;
+    margin: 0;
+    padding: 5px;
+    opacity: .7;
+    font-size: 11px;
+}
+
+.linksContainer {
+    padding: 10px;
+    position: relative;
+    font-size: 11px;
+}
+
+.linkUsm {
+    background-color:#19b5f7;
+    color: #fff;
+    border-radius: 4px;
+    padding: 4px 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.linkPostula {
+    background-color: #e5b300;
+    color: #fff;
+    border-radius: 4px;
+    margin-left: 20px;
+    padding: 4px 8px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.smallArrow {
+    font-size: 0.5em; 
+    vertical-align: middle; 
+}
