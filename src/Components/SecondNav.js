@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './SecondNav.module.css'; 
 
 const SecondNav = () => {
@@ -12,11 +13,27 @@ const SecondNav = () => {
                 />
             </div>
             <div className={styles.menuSection}>
-                <p>Inicio</p>
-                <p>Apoyo a la investigación <span className={styles.smallArrow}>▼</span></p>
-                <p>Apoyo Memoristas</p>
-                <p>ODS</p>
-                <p>Quiénes somos</p>
+                {/* Enlace a la página principal */}
+                <Link to="/" className={styles.navLink}>Inicio</Link>
+                <div className={styles.dropdown}>
+                    <p className={styles.dropdownLink}>
+                        Apoyo a la investigación <span className={styles.smallArrow}>▼</span>
+                    </p>
+                    <div className={styles.dropdownMenu}>
+                        <Link to="/construccion" className={styles.dropdownItem}>
+                            Bases de Datos A-Z
+                        </Link>
+                        <Link to="/construccion" className={styles.dropdownItem}>
+                            Guías Temáticas
+                        </Link>
+                        <Link to="/construccion" className={styles.dropdownItem}>
+                            Recursos académicos abiertos
+                        </Link>
+                    </div>
+                </div>
+                <Link to="/Construccion" className={styles.navLink}>Apoyo Memoristas</Link>
+                <Link to="/Construccion" className={styles.navLink}>ODS</Link>
+                <Link to="/Construccion" className={styles.navLink}>Quiénes somos</Link>
             </div>
         </div>
     );

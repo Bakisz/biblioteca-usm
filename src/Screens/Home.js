@@ -6,11 +6,11 @@ const Home = () => {
     const items = [
         { name: 'Reservar Salas', path: '/Reservar' },
         { name: 'Arrendar Libros', path: '/Prestamos' },
-        { name: 'Objetos Perdidos', path: '#' },
-        { name: 'Conexión Wifi', path: '#' },
-        { name: 'Nuevos Alumnos', path: '#' },
-        { name: 'Repositorio digital', path: '#' },
-        { name: 'Biblioteca Digital', path: '#' }
+        { name: 'Objetos Perdidos', path: '/Construccion' },
+        { name: 'Conexión Wifi', path: '/Construccion' },
+        { name: 'Nuevos Alumnos', path: '/Construccion' },
+        { name: 'Repositorio digital', path: '/Construccion' },
+        { name: 'Biblioteca Digital', path: '/Construccion' }
     ];
 
     return (
