@@ -7,25 +7,27 @@ const BusquedaLibro = () => {
         <div>
             <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Prestamos</span>
         </div>
-     
-
       {/* Buscador de libros */}
-      <div className={styles.searchSection}>
-        <select>
-          <option>Todas las sedes</option>
-          <option>Campus San Joaquin</option>
-          <option>Casa Central</option>
-          <option>Campus Vitacura</option>
-        </select>
-        <select>
-          <option>Catálogo de la Biblioteca</option>
-          <option>Departamento de Informatica</option>
-          <option>Departamento de Fisica</option>
-        </select>
-        <input type="text" placeholder="Buscar Libro" />
-        <button>🔍</button>
-      </div>
-
+      <div className={styles.searchContainer}>
+                <select className={styles.select}>
+                    <option>Todas las sedes</option>
+                    <option>Campus San Joaquin</option>
+                    <option>Casa Central</option>
+                    <option>Campus Vitacura</option>
+                </select>
+                <select className={styles.select}>
+                    <option>Catálogo de la Biblioteca</option>
+                    <option>Departamento de Informatica</option>
+                    <option>Departamento de Fisica</option>
+                </select>
+                <input
+                    type="text"
+                    placeholder="Buscar Libro"
+                    className={styles.searchInput}
+                />
+                <img src="/lupa.png" alt="lupa" style={{ width: '40px', Height: '40px', objectFit: 'cover', margin: '0 auto',cursor:'pointer',marginLeft:'10px' }} />
+            </div>
+            <b></b>
       {/* Listado de libros */}
       <div className={styles.bookList}>
         <div className={styles.bookItem}>
