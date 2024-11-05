@@ -3,6 +3,7 @@ import SecondNav from './Components/SecondNav';
 import Home from './Screens/Home';
 import FirstFoooter from './Components/FirstFooter';
 import SecondFoooter from './Components/SecondFooter';
+import ThirdFooter from './Components/ThirdFooter';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
     <Home/>
     <FirstFoooter/>
     <SecondFoooter/>
+    <ThirdFooter/>
   </div>
 );
 }
