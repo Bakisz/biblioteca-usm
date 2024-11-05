@@ -1,0 +1,54 @@
+.footerContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #005E90;
+    padding: 20px 40px;
+    color: white;
+}
+
+.leftSection {
+    flex: 1;
+    margin-left: 200px;
+}
+
+.leftSection h2 {
+    margin-bottom: 15px;
+    margin-left: 170px;
+}
+
+.libraryRow {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; 
+    padding-right: 700px; 
+    font-weight: 600;
+}
+
+.rightSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 200px;
+}
+
+.accreditationImage {
+    width: 150px; 
+    margin-bottom: 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.socialIcon {
+    width: 24px; 
+    height: 24px;
+    cursor: pointer;
+    transition: filter 0.2s;
+}
+
+.socialIcon:hover {
+    filter: brightness(0.8); 
+}
