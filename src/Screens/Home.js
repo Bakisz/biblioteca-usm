@@ -5,7 +5,7 @@ import styles from './Home.module.css';
 const Home = () => {
     const items = [
         { name: 'Reservar Salas', path: '/Reservar' },
-        { name: 'Arrendar Libros', path: '#' },
+        { name: 'Arrendar Libros', path: '/Prestamos' },
         { name: 'Objetos Perdidos', path: '#' },
         { name: 'Conexión Wifi', path: '#' },
         { name: 'Nuevos Alumnos', path: '#' },
