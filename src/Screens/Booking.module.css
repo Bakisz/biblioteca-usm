@@ -4,6 +4,22 @@
     border-radius: 8px;
 }
 
+.miniDiv {
+    width: 5px; 
+    height: 30px;
+    background-color: #005E90; 
+    display: inline-block; 
+    margin-right: 5px; 
+    vertical-align: middle;
+    margin-left: 77px;
+}
+
+.pathTo {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #005E90;
+}
+
 .filters {
     display: flex;
     flex-direction: column;

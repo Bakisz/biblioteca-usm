@@ -42,6 +42,9 @@ const Booking = () => {
 
     return (
         <div className={styles.bookingContainer}>
+            <div>
+                <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Reserva de Salas</span>
+            </div>
             <div className={styles.filters}>
                 <h1>Salas de Estudio</h1>
                 <select className={styles.select}>
