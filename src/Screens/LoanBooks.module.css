@@ -1,0 +1,65 @@
+.loanBooksContainer {
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+}
+
+.miniDiv {
+    width: 5px; 
+    height: 30px;
+    background-color: #005E90; 
+    display: inline-block; 
+    margin-right: 5px; 
+    vertical-align: middle;
+    margin-left: 77px;
+}
+
+.pathTo {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #005E90;
+}
+.titlee{
+    text-align: center;
+}
+
+.searchContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 8px;
+    width: 1400px;
+    height: 80px;
+    margin-left: 250px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.select {
+    width: 20%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.searchInput {
+    flex: 1;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+}
+
+.searchButton {
+    background-color: #005e90;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+  
