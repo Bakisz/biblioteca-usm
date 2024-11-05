@@ -1,6 +1,11 @@
 .thirdFooter {
-  background-color: #000000; /* Fondo negro */
-  padding: 15px;
+  background-color: #000000; 
   text-align: left;
-  color: white; /* Texto en color blanco */
+  color: white; 
+  font-size: 11px;
+  padding: 8px;
+}
+.thirdFooter p {
+  margin: 0;
+  margin-left: 20px;
 }

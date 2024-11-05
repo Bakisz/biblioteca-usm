@@ -1,28 +1,28 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Home.module.css';
 
 const Home = () => {
     const items = [
-        'Reservar Salas',
-        'Arrendar Libros',
-        'Objetos Perdidos',
-        'Conexión Wifi',
-        'Nuevos Alumnos',
-        'Repositorio digital',
-        'Biblioteca Digital'
+        { name: 'Reservar Salas', path: '/Reservar' },
+        { name: 'Arrendar Libros', path: '#' },
+        { name: 'Objetos Perdidos', path: '#' },
+        { name: 'Conexión Wifi', path: '#' },
+        { name: 'Nuevos Alumnos', path: '#' },
+        { name: 'Repositorio digital', path: '#' },
+        { name: 'Biblioteca Digital', path: '#' }
     ];
 
     return (
         <div className={styles.homeContainer}>
             <div>
-                <div className={styles.miniDiv}></div>
-                <span className={styles.pathTo}>Biblioteca Usm</span> » <span>Inicio</span>
+                <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Inicio</span>
             </div>
             <div className={styles.gridContainer}>
                 {items.map((item, index) => (
-                    <div key={index} className={styles.card}>
-                        {item}
-                    </div>
+                    <Link to={item.path} key={index} className={styles.card}>
+                        {item.name}
+                    </Link>
                 ))}
             </div>
         </div>

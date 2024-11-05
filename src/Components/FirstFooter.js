@@ -24,11 +24,21 @@ const FirstFooter = () => {
             <div className={styles.rightSection}>
                 <img src="/accreditation-image.svg" alt="Acreditación" className={styles.accreditationImage} />
                 <div className={styles.socialIcons}>
-                    <img src="/facebook-icon.png" alt="Facebook" className={styles.socialIcon} />
-                    <img src="/twitter-icon.png" alt="Twitter" className={styles.socialIcon} />
-                    <img src="/youtube-icon.png" alt="YouTube" className={styles.socialIcon} />
-                    <img src="/instagram-icon.png" alt="Instagram" className={styles.socialIcon} />
-                    <img src="/linkedin-icon.png" alt="LinkedIn" className={styles.socialIcon} />
+                    <a href="https://www.facebook.com/bibliotecausm/" target="_blank" rel="noopener noreferrer">
+                        <img src="/facebook-icon.png" alt="Facebook" className={styles.socialIcon} />
+                    </a>
+                    <a href="https://twitter.com/x/migrate?tok=7b2265223a222f4269626c696f7465636175736d222c2274223a313733303832353431377d04235a122df82030db0fe383e25badc9" target="_blank" rel="noopener noreferrer">
+                        <img src="/twitter-icon.png" alt="Twitter" className={styles.socialIcon} />
+                    </a>
+                    <a href="https://www.youtube.com/@biblioteca_usm" target="_blank" rel="noopener noreferrer">
+                        <img src="/youtube-icon.png" alt="YouTube" className={styles.socialIcon} />
+                    </a>
+                    <a href="https://www.instagram.com/biblioteca.usm/" target="_blank" rel="noopener noreferrer">
+                        <img src="/instagram-icon.png" alt="Instagram" className={styles.socialIcon} />
+                    </a>
+                    <a href="https://www.linkedin.com/company/bibliotecausm/" target="_blank" rel="noopener noreferrer">
+                        <img src="/linkedin-icon.png" alt="LinkedIn" className={styles.socialIcon} />
+                    </a>
                 </div>
             </div>
         </footer>

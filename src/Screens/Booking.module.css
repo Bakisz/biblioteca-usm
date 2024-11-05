@@ -1,0 +1,97 @@
+.bookingContainer {
+    padding: 20px;
+    background-color: #f5f5f5; 
+    border-radius: 8px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #F0F0F0;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 1170px; 
+    margin: 0 auto; 
+    margin-bottom: 20px;
+}
+.select {
+    width: 100%; 
+    padding: 10px;
+    margin-bottom: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 1rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+
+.roomCard {
+    margin-left: 330px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Asegura que el contenido no se salga del borde */
+    padding: 0;
+    width: 1200px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.roomHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f5f5f5; /* Fondo gris claro */
+    border-bottom: 1px solid #ddd;
+    height: 50px;
+}
+
+.roomHeader h2{
+    margin-left: 20px;
+}
+
+.capacity {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.9rem;
+    color: #555;
+    margin-right: 20px;
+}
+
+.timeList {
+    list-style: none;
+    padding: 15px; /* Ajusta el padding para la lista de horarios */
+}
+
+.timeSlot {
+    display: flex;
+    align-items: center;
+    margin-top:5px;
+}
+.timeSlot span{
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+
+.reserveButton {
+    background-color: #005e90;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    bottom: 10px;
+    right: 15px;
+    float: right; /* Coloca el botón en la esquina inferior derecha */
+    margin-top: 20px;
+}
+
+.reserveButton:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

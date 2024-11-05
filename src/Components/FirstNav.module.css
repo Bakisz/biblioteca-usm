@@ -27,6 +27,7 @@
     padding: 5px;
     opacity: .7;
     font-size: 11px;
+    cursor: pointer;
 }
 
 .linksContainer {

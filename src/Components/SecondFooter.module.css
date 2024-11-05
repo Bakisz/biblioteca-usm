@@ -1,14 +1,14 @@
 .secondFooter {
-    background-color: #333333; /* Fondo negro gris */
+    background-color: #333333;
     padding: 20px;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Espacio entre cada logo */
+    gap: 20px; 
   }
   
   .secondFooter img {
-    height: 70px; /* Tamaño de los logos */
+    height: 70px; 
     margin: 10px;
   }
