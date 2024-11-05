@@ -8,6 +8,7 @@ import LoanBooks from './Screens/LoanBooks';
 import FirstFooter from './Components/FirstFooter';
 import SecondFooter from './Components/SecondFooter';
 import ThirdFooter from './Components/ThirdFooter';
+import BusquedaLibro from './Screens/BusquedaLibro';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/Reservar" element={<Booking />} />
           <Route path="/Prestamos" element={<LoanBooks />} />
+          <Route path="/BusquedaLibro" element={<BusquedaLibro/>} />
         </Routes>
         <FirstFooter />
         <SecondFooter />

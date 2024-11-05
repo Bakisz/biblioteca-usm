@@ -1,0 +1,122 @@
+.miniDiv {
+    width: 5px; 
+    height: 30px;
+    background-color: #005E90; 
+    display: inline-block; 
+    margin-right: 5px; 
+    vertical-align: middle;
+    margin-left: 77px;
+}
+
+.busquedaLibro {
+    background-color: #ffffff; /* Fondo blanco */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+   
+  }
+
+
+  .header {
+    text-align: center; /* Centrar el texto dentro del header */
+    margin-bottom: 20px;
+  }
+  
+  .header h2 {
+    font-size: 24px;
+    margin: 0;
+    color: #333;
+  }
+  
+  .header p {
+    color: #666;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .searchSection {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+  
+  .searchSection select,
+  .searchSection input,
+  .searchSection button {
+    padding: 10px;
+    font-size: 14px;
+  }
+  
+  .searchSection input {
+    flex-grow: 1;
+    max-width: 300px;
+  }
+  
+  .bookList {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .bookItem {
+    display: flex;
+    width: 100%;
+    max-width: 800px; /* Limita el ancho total de cada item */
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .bookImage {
+    flex-shrink: 0;
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 140px; /* Fija el alto del contenedor */
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+    overflow: hidden; /* Oculta cualquier parte que salga del contenedor */
+    border-radius: 5px; /* Opcional: Bordes redondeados */
+  }
+  
+  .bookImage img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* Ajusta la imagen para que quepa dentro del cuadro sin recortarse */
+  }
+  
+  .bookDescription {
+    flex-grow: 1; /* Permite que la descripción ocupe el espacio disponible */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .bookDescription h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .bookDescription p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 14px;
+  }
+  
+  .bookDescription button {
+    align-self: flex-start;
+    padding: 8px 12px;
+    background-color: #0073a8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .bookDescription button:hover {
+    background-color: #005b85;
+  }
