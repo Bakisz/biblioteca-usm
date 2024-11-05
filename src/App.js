@@ -9,6 +9,7 @@ import FirstFooter from './Components/FirstFooter';
 import SecondFooter from './Components/SecondFooter';
 import ThirdFooter from './Components/ThirdFooter';
 import BusquedaLibro from './Screens/BusquedaLibro';
+import EnConstruccion from './Screens/EnConstruccion';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/Reservar" element={<Booking />} />
           <Route path="/Prestamos" element={<LoanBooks />} />
           <Route path="/BusquedaLibro" element={<BusquedaLibro/>} />
+          <Route path="/Construccion" element={<EnConstruccion/>} />
         </Routes>
         <FirstFooter />
         <SecondFooter />
