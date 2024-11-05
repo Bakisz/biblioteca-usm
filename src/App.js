@@ -2,6 +2,7 @@ import FirstNav from './Components/FirstNav';
 import SecondNav from './Components/SecondNav';
 import Home from './Screens/Home';
 import FirstFoooter from './Components/FirstFooter';
+import SecondFoooter from './Components/SecondFooter';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <SecondNav/>
     <Home/>
     <FirstFoooter/>
+    <SecondFoooter/>
   </div>
 );
 }
