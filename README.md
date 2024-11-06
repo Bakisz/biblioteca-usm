@@ -1,3 +1,10 @@
+# INTEGRANTES
+Diego Acevedo Santander 202073532-8
+Martin Moraga Maureira 202004599-2
+Nicolas Schiaffino 202111576-5
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
