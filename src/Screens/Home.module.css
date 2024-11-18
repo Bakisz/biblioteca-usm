@@ -51,3 +51,11 @@
     text-decoration: underline;
 }
 
+@media (max-width: 1024px) {
+    .miniDiv{
+        margin-left: 30px;
+    }
+    .gridContainer{
+        margin-left: 180px;
+    }
+}

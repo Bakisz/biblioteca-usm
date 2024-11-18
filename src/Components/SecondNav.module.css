@@ -11,17 +11,17 @@
 }
 
 .navLink, .dropdownLink {
-    color: inherit; /* Usa el color del texto actual */
-    text-decoration: none; /* Quita el subrayado */
+    color: inherit; 
+    text-decoration: none; 
     font-weight: bold;
     cursor: pointer;
     display: flex;
-    align-items: center; /* Alinea el contenido verticalmente */
+    align-items: center; 
     font-size: 1.1rem !important;
 }
 
 .navLink:hover, .dropdownLink:hover {
-    text-decoration: underline; /* Agrega subrayado al pasar el mouse */
+    text-decoration: underline; 
 }
 
 .logoSection {
@@ -49,7 +49,7 @@
     font-size: 1.1rem;
     margin-top: -185px;
     margin-right: 150px;
-    align-items: center; /* Alinea todos los elementos verticalmente */
+    align-items: center; 
 }
 
 .smallArrow {
@@ -58,7 +58,7 @@
     vertical-align: middle;
 }
 
-/* Menú desplegable */
+
 .dropdown {
     position: relative;
 }
@@ -77,7 +77,7 @@
     width: 200px;
 }
 
-/* Muestra el menú al pasar el ratón */
+
 .dropdown:hover .dropdownMenu {
     display: block;
 }
@@ -92,4 +92,72 @@
 
 .dropdownItem:hover {
     background-color: #f0f0f0;
+}
+
+.navContainerLaptop {
+    display: none; 
+    justify-content: space-between;
+    background-color: white; 
+    padding: 10px 20px;
+    color: white;
+    gap: 10px;
+}
+.logoNegro{
+    display: none;
+    align-items: center;
+    width: 230px;
+    height: 70px;
+    margin-left: 20px;
+}
+.navContainerLaptop2{
+    display: None;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/public/background.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 20px 40px;
+    height: 130px;
+    color: white;
+}
+
+.hamburger {
+    display: none; 
+    background-color: #005E90;
+    border-radius: 4px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-right: 30px;
+    justify-content: space-around;
+    width: 45px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.hamburger .line {
+    width: 100%;
+    height: 4px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+@media (max-width: 1024px) {
+    .navContainer {
+        display: none; 
+    }
+
+    .navContainerLaptop {
+        display: flex; 
+    }
+    .navContainerLaptop2 {
+        display: flex; 
+    }
+    .logoNegro{
+        display: flex;
+    }
+    .hamburger {
+        display: flex;
+    }
 }

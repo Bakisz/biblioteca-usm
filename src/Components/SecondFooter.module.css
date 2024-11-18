@@ -8,7 +8,18 @@
     gap: 20px; 
   }
   
-  .secondFooter img {
-    height: 70px; 
-    margin: 10px;
+.secondFooter img {
+  height: 70px; 
+  margin: 10px;
+}
+
+@media (max-width: 1024px) {
+  .secondFooter{
+    padding: 0px;
+    gap: 10px;
+    border: none;
   }
+  .secondFooter img{
+    height: 60px;
+  }
+}

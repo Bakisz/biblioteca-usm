@@ -52,3 +52,18 @@
 .socialIcon:hover {
     filter: brightness(0.8); 
 }
+
+@media (max-width: 1024px) {
+    .leftSection{
+        margin-left: 50px;
+    }
+    .leftSection h2{
+        margin-left: 140px;
+    }
+    .libraryRow{
+        padding-right: 200px;
+    }
+    .rightSection{
+        padding-right: 50px;
+    }
+}
