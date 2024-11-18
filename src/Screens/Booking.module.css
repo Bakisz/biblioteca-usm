@@ -129,6 +129,6 @@
     }
     .roomCard {
         width: 830px;
-        margin-left: 75px;
+        margin-left: calc((100% - 830px)/2);
     }
 }

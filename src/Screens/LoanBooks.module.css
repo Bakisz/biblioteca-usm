@@ -32,7 +32,7 @@
     border-radius: 8px;
     width: 1400px;
     height: 80px;
-    margin-left: 250px;
+    margin-left: calc((100% - 1400px)/2);
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -72,7 +72,7 @@
     }
     .searchContainer {
         width: 800px;
-        margin-left: 80px;
+        margin-left: calc((100% - 800px)/2);
     }
     .select{
         width: 25%;
