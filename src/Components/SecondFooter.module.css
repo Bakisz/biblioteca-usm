@@ -23,3 +23,16 @@
     height: 60px;
   }
 }
+
+@media (max-width: 425px) {
+  .secondFooter{
+    padding: 0px;
+    gap: 0px;
+    border: none;
+    width: 112%;
+  }
+  .secondFooter img{
+    height: 30px;
+    margin: 5px;
+  }
+}

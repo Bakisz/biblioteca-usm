@@ -67,3 +67,23 @@
         padding-right: 50px;
     }
 }
+
+@media (max-width: 425px) {
+    .footerContainer{
+        display: block;
+        width: 100%;
+    }
+    .leftSection{
+        margin-left: 30px;
+    }
+    .leftSection h2{
+        margin-left: 60px;
+    }
+    .libraryRow{
+        padding-right: 50px;
+    }
+    .rightSection{
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+}

@@ -174,7 +174,19 @@
   }
   .searchContainer {
       width: 800px;
-      margin-left: 80px;
+      margin-left: calc((100% - 800px)/2);
+  }
+  .select{
+      width: 25%;
+  }
+}
+@media (max-width: 425px) {
+  .miniDiv{
+      margin-left: 30px;
+  }
+  .searchContainer {
+      width: 400px;
+      margin-left: calc((100% - 400px)/2);
   }
   .select{
       width: 25%;

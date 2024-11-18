@@ -9,3 +9,8 @@
   margin: 0;
   margin-left: 20px;
 }
+@media (max-width: 425px) {
+  .thirdFooter {
+    width: 110%;
+  }
+}
