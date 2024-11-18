@@ -111,6 +111,9 @@
     cursor: not-allowed;
 }
 
+.reserveButton:hover:enabled {
+    background-color: #0056b3;
+}
 .noUnderline {
     text-decoration: none;
   }

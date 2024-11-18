@@ -4,6 +4,7 @@ import styles from './Booking.module.css';
 
 const Booking = () => {
     const [selectedTimes, setSelectedTimes] = useState({});
+    const [reservedTimes, setReservedTimes] = useState({});
 
     const rooms = [
         {
@@ -26,6 +27,7 @@ const Booking = () => {
         },
     ];
 
+    // Manejar cambios en los checkboxes
     const handleCheckboxChange = (roomIndex, timeIndex) => {
         setSelectedTimes((prevSelectedTimes) => {
             if (prevSelectedTimes[roomIndex] === timeIndex) {
@@ -39,6 +41,14 @@ const Booking = () => {
                 };
             }
         });
+    };
+
+    // Manejar la reserva
+    const handleReserve = (roomIndex) => {
+        setReservedTimes((prevReservedTimes) => ({
+            ...prevReservedTimes,
+            [roomIndex]: selectedTimes[roomIndex],
+        }));
     };
 
     return (
@@ -73,13 +83,25 @@ const Booking = () => {
                                     type="checkbox"
                                     checked={selectedTimes[roomIndex] === timeIndex}
                                     onChange={() => handleCheckboxChange(roomIndex, timeIndex)}
+                                    disabled={reservedTimes[roomIndex] === timeIndex}
                                 />
                                 <span>{time}</span>
                             </li>
                         ))}
                     </ul>
                     {selectedTimes[roomIndex] !== undefined && (
-                        <button className={styles.reserveButton}>Reservar</button>
+                        <button
+                            className={styles.reserveButton}
+                            onClick={() => handleReserve(roomIndex)}
+                            disabled={reservedTimes[roomIndex] !== undefined}
+                            style={{
+                                backgroundColor: reservedTimes[roomIndex] !== undefined ? '#4CAF50' : '#007BFF',
+                                color: '#FFF',
+                                cursor: reservedTimes[roomIndex] !== undefined ? 'not-allowed' : 'pointer',
+                            }}
+                        >
+                            {reservedTimes[roomIndex] !== undefined ? 'Reservado' : 'Reservar'}
+                        </button>
                     )}
                 </div>
             ))}
