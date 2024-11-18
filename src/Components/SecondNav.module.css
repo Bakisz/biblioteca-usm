@@ -17,6 +17,7 @@
     cursor: pointer;
     display: flex;
     align-items: center; /* Alinea el contenido verticalmente */
+    font-size: 1.1rem !important;
 }
 
 .navLink:hover, .dropdownLink:hover {
