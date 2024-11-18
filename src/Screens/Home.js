@@ -16,7 +16,8 @@ const Home = () => {
     return (
         <div className={styles.homeContainer}>
             <div>
-                <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Inicio</span>
+            <div className={styles.miniDiv}></div>
+                <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
             </div>
             <div className={styles.gridContainer}>
                 {items.map((item, index) => (

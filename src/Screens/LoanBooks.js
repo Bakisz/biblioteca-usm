@@ -1,13 +1,15 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { Link } from 'react-router-dom';
 import styles from './LoanBooks.module.css';
 
 const LoanBooks = () => {
     return (
         <div className={styles.loanBooksContainer}>
             <div>
-                <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Prestamos</span>
+                <div className={styles.miniDiv}></div>
+                <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
             </div>
             <h2 className={styles.titlee}>Populares</h2>
             <Carousel showThumbs={false} autoPlay infiniteLoop>

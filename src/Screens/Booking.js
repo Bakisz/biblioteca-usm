@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Booking.module.css';
 
 const Booking = () => {
@@ -43,7 +44,8 @@ const Booking = () => {
     return (
         <div className={styles.bookingContainer}>
             <div>
-                <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Reserva de Salas</span>
+                <div className={styles.miniDiv}></div>
+                <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
             </div>
             <div className={styles.filters}>
                 <h1>Salas de Estudio</h1>
