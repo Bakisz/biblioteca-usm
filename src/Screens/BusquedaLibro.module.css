@@ -161,3 +161,7 @@
     border-radius: 4px;
     cursor: pointer;
 }
+
+.noUnderline {
+  text-decoration: none;
+}

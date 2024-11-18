@@ -1,11 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styles from './BusquedaLibro.module.css';
 
 const BusquedaLibro = () => {
   return (
     <div className={styles.busquedaLibro}>
         <div>
-            <div className={styles.miniDiv}></div><span className={styles.pathTo}>Biblioteca Usm</span> » <span>Prestamos</span>
+          <div className={styles.miniDiv}></div>
+          <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
         </div>
       {/* Buscador de libros */}
       <div className={styles.searchContainer}>
