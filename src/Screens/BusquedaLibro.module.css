@@ -165,3 +165,16 @@
 .noUnderline {
   text-decoration: none;
 }
+
+@media (max-width: 1024px) {
+  .miniDiv{
+      margin-left: 30px;
+  }
+  .searchContainer {
+      width: 800px;
+      margin-left: 80px;
+  }
+  .select{
+      width: 25%;
+  }
+}
