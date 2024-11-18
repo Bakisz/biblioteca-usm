@@ -31,7 +31,6 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     width: 1170px; 
     margin: 0 auto; 
-    margin-bottom: 20px;
 }
 .select {
     width: 100%; 
@@ -115,3 +114,18 @@
 .noUnderline {
     text-decoration: none;
   }
+
+  @media (max-width: 1024px) {
+    .miniDiv{
+        margin-left: 30px;
+    }
+    .filters {
+        width: 800px;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .roomCard {
+        width: 830px;
+        margin-left: 75px;
+    }
+}

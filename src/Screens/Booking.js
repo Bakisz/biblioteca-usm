@@ -45,7 +45,7 @@ const Booking = () => {
         <div className={styles.bookingContainer}>
             <div>
                 <div className={styles.miniDiv}></div>
-                <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
+                <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Reservar</span>
             </div>
             <div className={styles.filters}>
                 <h1>Salas de Estudio</h1>

@@ -7,7 +7,7 @@ const BusquedaLibro = () => {
     <div className={styles.busquedaLibro}>
         <div>
           <div className={styles.miniDiv}></div>
-          <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Inicio</span>
+          <Link to="/" className={`${styles.pathTo} ${styles.noUnderline}`}>Biblioteca Usm</Link> » <span>Prestamos</span> » <span>Busqueda</span>
         </div>
       {/* Buscador de libros */}
       <div className={styles.searchContainer}>
