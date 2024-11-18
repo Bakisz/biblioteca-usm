@@ -22,6 +22,7 @@
 .gridContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, 240px);
+    justify-content: center; /* Centra las cartas horizontalmente */
     margin-left: 230px;
     margin-top: -10px;
 }
