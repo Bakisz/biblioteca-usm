@@ -131,8 +131,8 @@
     margin-top: 15px;
     margin-right: 30px;
     justify-content: space-around;
-    width: 45px;
-    height: 40px;
+    width: 55px;
+    height: 45px;
     cursor: pointer;
 }
 
@@ -141,6 +141,37 @@
     height: 4px;
     background-color: white;
     border-radius: 3px;
+}
+
+/* Dropdown */
+.dropdownMenu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.dropdown:hover .dropdownMenu {
+    display: block;
+}
+
+/* Menú para pantallas pequeñas */
+.menuSection.menuOpen {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 270px;
+    left: 0;
+    width: 100%;
+    background-color: #005E90;
+    padding: 10px;
+}
+
+.menuSection.menuOpen .navLink {
+    padding: 10px 20px;
+    border-bottom: 1px solid #00487c;
 }
 
 @media (max-width: 1024px) {
@@ -172,7 +203,7 @@
     }
     .navContainerLaptop2 {
         display: flex; 
-        width: 101%;
+        width: 111%;
         height: 60px;
         padding: 10px 20px;
         
@@ -186,7 +217,19 @@
     }
     .hamburger {
         display: flex;
-        margin-right: -40px;
+        margin-right: -80px;
+        width: 40px;
+        height: 35px;
         margin-top: 10px;
+    }
+    .menuSection{
+        margin-right: 0px;
+        gap: 0;
+        position: absolute;
+        right: 0 ;
+    }
+    .menuSection.menuOpen {
+        top:252px;
+        width: 120%;
     }
 }
